@@ -13,6 +13,10 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'devise'
+gem 'omniauth', '~> 1.9.1'
+gem 'omniauth-google-oauth2'
+gem 'activerecord-session_store'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
